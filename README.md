@@ -5,6 +5,22 @@ Homework#2(Numbers to GEO text converter)
 
 ## Description
 
-Simple Converter for your numbers in to georgian language
+A simple converter of numbers to Georgian letters
 
 ![Alt text](https://firebasestorage.googleapis.com/v0/b/metaplayer-6d01c.appspot.com/o/image_2022-06-18_195231261.png?alt=media&token=7c420429-ee36-4568-82c7-52779a4d0d2a)
+
+
+
+
+## Authors
+
+ex. Luka Nikuradze - luka.nikuradze.1@btu.edu.ge
+
+
+## Version History
+
+* 1.0.1 (18.06.2022)
+    * added logo and private access for variables
+
+* 1.0 (17.06.2022)
+    * Initial Release
