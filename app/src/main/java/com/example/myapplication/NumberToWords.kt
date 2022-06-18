@@ -1,28 +1,28 @@
 package com.example.myapplication
 
 object NumberToWords {
-    val oneToNineteen = arrayOf(
+    private val oneToNineteen = arrayOf(
         "", "ერთი", "ორი", "სამი", "ოთხი", "ხუთი",
         "ექვსი", "შვიდი", "რვა", "ცხრა", "ათი", "თერთმეტი", "თორმეტი", "ცამეტი",
         "თოთხმეტი", "თხუთმეტი", "თექვსმეტი", "ჩვიდმეტი", "თვრამეტი", "ცხრამეტი"
     )
-    val elevenToNineteen = arrayOf(
+    private val elevenToNineteen = arrayOf(
         "", "თერთმეტი", "თორმეტი", "ცამეტი",
         "თოთხმეტი", "თხუთმეტი", "თექვსმეტი", "ჩვიდმეტი", "თვრამეტი", "ცხრამეტი"
     )
-    val tens = arrayOf(
+    private val tens = arrayOf(
         "", "ათი", "ოცი", "ოცდაათი", "ორმოცი",
         "ორმოცდაათი", "სამოცი", "სამოცდაათი", "ოთხმოცი", "ოთხმოცდაათი"
     )
-    val plusTens = arrayOf(
+    private val plusTens = arrayOf(
         "", "ათი", "ოცდა", "ოცდა", "ორმოცდა",
         "ორმოცდა", "სამოცდა", "სამოცდა", "ოთხმოცდა", "ოთხმოცდა"
     )
-    val hundreds = arrayOf(
+    private val hundreds = arrayOf(
         "", "ასი", "ორასი", "სამასი", "ოთხასი",
         "ხუთასი", "ექვსასი", "შვიდასი", "რვაასი", "ცხრაასი"
     )
-    val plusHundreds = arrayOf(
+    private val plusHundreds = arrayOf(
         "", "ას", "ორას", "სამას", "ოთხას",
         "ხუთას", "ექვსას", "შვიდას", "რვაას", "ცხრაას"
     )
